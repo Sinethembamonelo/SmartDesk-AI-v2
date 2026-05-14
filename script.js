@@ -1,0 +1,1 @@
+document.getElementById("startBtn").addEventListener("click", function () { alert("welcome to SmartDesk AI V2"); });
