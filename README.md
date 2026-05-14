@@ -15,7 +15,7 @@ This project was created to explore how AI-inspired productivity tools can be bu
 - Learn web development step by step
 - Practice building AI-inspired applications
 - Improve coding and problem-solving skills
-- Unerstand how fronted projects are structured
+- Understand how fronted projects are structured
 ## Future Improvements
 - AI chatbot assistant
 - Task management system
