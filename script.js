@@ -1,1 +1,1 @@
-document.getElementById("startBtn").addEventListener("click", function () { alert("welcome to SmartDesk AI V2"); });
+document.getElementById("startBtn").addEventListener("click", function () { const box = document.getElementById("messageBox"); box.style.display = "block"; box.textContent = "Welcome to SmartDesk AI V2 - Your productivity assistant is ready!"; });
