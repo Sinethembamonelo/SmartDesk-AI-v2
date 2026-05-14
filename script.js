@@ -1,1 +1,3 @@
-document.getElementById("startBtn").addEventListener("click", function () { const box = document.getElementById("messageBox"); box.style.display = "block"; box.textContent = "Welcome to SmartDesk AI V2 - Your productivity assistant is ready!"; });
+document.getElementById("startBtn").addEventListener("click", function () { document.getElementById("chatbox").innerHTML = "SmartDesk AI is ready Start chatting below!"; });
+
+document.getElementById("sendBtn").addEventListener("click", function () { const input = document.getElementById("userInput"); const chatBox = document.getElementById("chatBox"); const userMessage === "") return; // show user message chatBox.innerHTML += "<p><b>You:</b> " + userMessage + "</p>"; // Simple AI reply (fake AI for now) chatBox.innerHTML += "<p><b>AI:</b> I received: " + userMessage + "</p>"; input.value = ""; // Auto scroll chatBox.scrollTop = chatBox.scrollHeight; });})
